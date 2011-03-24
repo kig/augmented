@@ -4,10 +4,18 @@ Mozilla Web O’ Wonder
 ---------------------
 
 
-See remixingreality/demo.html
+See remixingreality/index.html
+
+To run the demos locally on Firefox from a file:/// uri:
+Go to about:config and set security.fileuri.strict_origin_policy to false.
+
+(The problem is that by default a web page can't read from a local file, 
+and that includes reading image data from a video.)
+
+Or run a local webserver and view the demo there.
 
 
-For the AR library, see https://github.com/kig/NyAR_JS
+For the AR library, see https://github.com/kig/JSARToolKit
 
 
 --------
